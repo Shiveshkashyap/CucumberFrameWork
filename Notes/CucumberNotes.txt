@@ -1,0 +1,10 @@
+ here in the feature file : First we have to define a feature on the top . and that is our feature file name
+ then the Second we have to define the Scenarios within that there is steps using Gherkins key word
+ Below are the list of Gherkins Keyword
+
+ Feature : --> This should be always in top of Feature file{Feature:file name}
+ Scenarios: -- > In this we right the scenarios name (In a feature file we have multiples scenarios)
+ Given -- > step is used to set the context
+ When -->step is the action/interaction of the system
+ Then --> step for representing the outcome
+ And-step for extending the previous step
